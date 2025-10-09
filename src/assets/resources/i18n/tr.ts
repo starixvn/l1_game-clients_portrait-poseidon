@@ -39,10 +39,10 @@ export const languages = {
         "from_settle_to_spin2": "Daha çok çevir, daha çok kazan!",
         "from_settle_to_spin3": "Turbo modunu dene",
         "show_msg_when_spin_phone": "Başlamak için Döndür'e dokunun veya basılı tutun",
-        "top_message1": "SEMBOLLEER EKRANIN HER YERİNDE ÖDEME YAPAR",
+        "top_message1": "Semboller ekranın herhangi bir yerinde ödeme yapar",
         "top_message2a": "Vur",
-        "top_message2b": "YUVARLANAN KAZANCI ÇARPMAK İÇİN",
-        "top_message3": "BAHİSİN %{maxWin} KATI KAZANIN",
+        "top_message2b": "takla kazancını çarpmak için",
+        "top_message3": "Bahsin %{maxWin}x'ine kadar kazanın",
         "win_tumble_msg": "TEBRİKLER!",
         "round_settle_msg": "Bol şans!",
         "index": "Sıra No.",
@@ -79,7 +79,7 @@ export const languages = {
         "volatility_high": "Yüksek",
         "balance": "BAKİYE",
         "bet": "Bahis",
-        "msg_random_multipliers": "250x'e Kadar Rastgele Çarpanlar",
+        "msg_random_multipliers": "500x'e Kadar Rastgele Çarpanlar",
         "btn_buy_free_spins": "Free Spins\nSatın Al",
         "msg_free_spins": "Free Spins'te Artan Çarpan",
         "turbo_icon": "Turbo"
@@ -377,7 +377,22 @@ export const languages = {
         "crashed": "ÇÖKTÜ",
         "start": "Başlat",
         "max": "Maks.",
-        "stop_auto_bet": "Otomatik Bahsi Durdur"
+        "stop_auto_bet": "Otomatik Bahsi Durdur",
+        "msg_rotate_to_portrait": "Lütfen oynamak için ekranınızı dikey moda döndürün",
+        "auto_bet_header": "Otomatik Bahis Talimatı",
+        "how_to_use_auto_bet": "Auto Bet Nasıl Kullanılır",
+        "auto_bet_para_1": "Auto Bet, seçtiğiniz koşullar karşılanana kadar otomatik bahis için kurallar belirlemenizi sağlar.",
+        "auto_bet_para_2": "Bahis Sayısı: Otomatik bahis yapılacak toplam tur sayısı.",
+        "auto_bet_para_3": "Kazanınca",
+        "auto_bet_para_3_1": "Sıfırla – Kazandıktan sonra başlangıç bahsinize geri dönün.",
+        "auto_bet_para_3_2": "Artış miktarı: Kazandığınızda bahsinizi belirli bir yüzde oranında artırın.",
+        "auto_bet_para_3_3": "(Örnek: +%20 Ayarla → 10$ ile Başla → kazan → sonraki bahis 12$)",
+        "auto_bet_para_4": "Kaybedince",
+        "auto_bet_para_4_1": "Reset: Kaybettikten sonra başlangıç bahsinize geri dönün.",
+        "auto_bet_para_4_2": "Sıfırla: Kaybettiğinizde bahsinizi belirli bir yüzde oranında artırın.",
+        "auto_bet_para_4_3": "(Örnek: +%50 Ayarla → 10$ ile Başla → kaybet → sonraki bahis 15$)",
+        "auto_bet_para_5": "Stop on Win: Kazanma hedefinize ulaştığınızda Otomatik Bahsi durdurun.",
+        "auto_bet_para_6": "Kayba Durdurma: Kayıp sınırınıza ulaştığınızda Otomatik Bahsi durdurun."
     },
     "PickleballLoveStory": {
         "game_name": null,
@@ -460,6 +475,10 @@ export const languages = {
         "total_win": "Total Win",
         "Unexpected_gift_code_error_message": "Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
         "Close": "Kapat"
+    },
+    "PoseidonsRealm": {
+        "game_icon_name": "Poseidon'un Diyarı",
+        "game_name": "Poseidon'un Diyarı"
     }
 };
 

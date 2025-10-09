@@ -293,7 +293,22 @@ export const languages = {
         "invalid_jackpot": "invalid_jackpot",
         "opened_jackpot": "opened_jackpot",
         "max": "Máx.",
-        "stop_auto_bet": "Detener apuesta automática"
+        "stop_auto_bet": "Detener apuesta automática",
+        "msg_rotate_to_portrait": "Gira la pantalla a modo vertical para jugar.",
+        "auto_bet_header": "Instrucciones de Apuesta Automática",
+        "how_to_use_auto_bet": "Cómo usar Auto Bet",
+        "auto_bet_para_1": "Auto Bet te permite establecer reglas para las apuestas automáticas hasta que se cumplan las condiciones elegidas.",
+        "auto_bet_para_2": "Número de apuestas: rondas totales para apostar automáticamente.",
+        "auto_bet_para_3": "Al ganar",
+        "auto_bet_para_3_1": "Restablecer: vuelve a tu apuesta inicial después de una ganancia.",
+        "auto_bet_para_3_2": "Aumentar en: Aumenta tu apuesta en un porcentaje fijo cuando ganes.",
+        "auto_bet_para_3_3": "(Ejemplo: Establecer +20% → Empezar con $10 → ganar → siguiente apuesta $12)",
+        "auto_bet_para_4": "En caso de pérdida",
+        "auto_bet_para_4_1": "Reset: Regresa a tu apuesta inicial después de una pérdida.",
+        "auto_bet_para_4_2": "Restablecer: Aumenta tu apuesta en un porcentaje fijo cuando pierdes.",
+        "auto_bet_para_4_3": "(Ejemplo: Establecer +50% → Empezar con $10 → perder → siguiente apuesta $15)",
+        "auto_bet_para_5": "Stop on Win: Detener la apuesta automática al alcanzar tu objetivo de ganancias.",
+        "auto_bet_para_6": "Detener en pérdida: Detén la apuesta automática al alcanzar tu límite de pérdida."
     },
     "cascadingslot": {
         "auto_spin": "Giro Automático",
@@ -354,10 +369,10 @@ export const languages = {
         "show_msg_when_spin_phone": "Pulsa o mantén pulsado Girar para comenzar",
         "start": "Iniciar",
         "super_win": "Super Win",
-        "top_message1": "LOS SÍMBOLOS PAGAN EN CUALQUIER LUGAR DE LA PANTALLA",
-        "top_message2a": "ACIERTA",
-        "top_message2b": "PARA MULTIPLICAR LA GANANCIA EN CASCADA",
-        "top_message3": "GANA HASTA %{maxWin}X TU APUESTA",
+        "top_message1": "Los símbolos pagan en cualquier lugar de la pantalla",
+        "top_message2a": "Acierta",
+        "top_message2b": "para multiplicar la ganancia en cascada",
+        "top_message3": "Gana hasta %{maxWin}x tu apuesta",
         "total_bet": "Apuesta Total",
         "total_bet_shorten": "Apuesta Total",
         "total_multiplier": "Multiplicador Total",
@@ -374,7 +389,7 @@ export const languages = {
         "win_tumble_msg": "¡FELICIDADES!",
         "you_have_won": "Has Ganado",
         "you_win_free_spin": "Ganaste",
-        "msg_random_multipliers": "Multiplicadores aleatorios de hasta 250x",
+        "msg_random_multipliers": "Multiplicadores aleatorios de hasta 500x",
         "btn_buy_free_spins": "Comprar\nFree Spins",
         "msg_free_spins": "Multiplicador creciente en Free Spin",
         "turbo_icon": "Turbo"
@@ -456,6 +471,10 @@ export const languages = {
         "total_bet": "Apuesta Total",
         "total_win": "Ganancia Total",
         "Unexpected_gift_code_error_message": "Se ha producido un error inesperado. Por favor, inténtelo de nuevo más tarde."
+    },
+    "PoseidonsRealm": {
+        "game_icon_name": "Poseidon's Realm",
+        "game_name": "Poseidon's Realm"
     }
 };
 
